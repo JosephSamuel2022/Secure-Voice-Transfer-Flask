@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify,send_file
 from scipy.io import wavfile
 import numpy as np
 import matplotlib.pyplot as plt
-import sounddevice as sd
+
 
 from bson.binary import Binary
 import random
